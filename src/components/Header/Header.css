@@ -1,0 +1,15 @@
+
+.header {
+    @apply h-80 shadow-md bg-white text-gray-800 relative overflow-hidden;
+  }
+  
+  /* Flex container for slider */
+  .slider {
+    @apply flex transition-transform duration-500 ease-in-out;
+  }
+  
+  /* Responsive styles for images */
+  .slider img {
+    @apply w-full h-full object-cover;
+  }
+  
